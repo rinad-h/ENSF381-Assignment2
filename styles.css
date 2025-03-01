@@ -14,10 +14,9 @@ header img {
 
 header h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;  /* White text */
+    color: white; 
     font-size: 20px;
-    margin: 0;  /* Remove default margins */
-}
+    margin: 0;  
 
 nav {
     display: flex;  
@@ -41,7 +40,7 @@ nav a:hover {text-decoration: underline; }
     text-align: center; 
     font-family: Arial;
     padding: 20px;  
-   /* margin: 20px;  Margin for spacing outside*/
+   /* margin: 20px;  Margin for spacing outside this doesn tmatch the output in assignment 2 so we removed it */
 }
 
 ul.no-bullets {
@@ -58,5 +57,76 @@ footer{
     margin: 0;
     color: white;
     text-align: center;
+    font-family: Arial;
+}
+
+#login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #d4d4d4;
+}
+
+#login-form form {
+    background-color: darkgrey;
+    padding: 50px 300px;
+    margin: 0 150px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+#login-form input {
+    width: 100%;
+    background-color: #ffffe0;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #808080;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    background-color: #008000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.login-btn:hover {
+    background-color: #006600;
+}
+
+#login-form a {
+    margin: 10px;
+    color: #004080;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login-form a:hover {
+    text-decoration: underline;
+}
+#login-form h2 {
+    color: #004080;
     font-family: Arial;
 }
