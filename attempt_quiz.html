@@ -32,25 +32,26 @@
         <div class="quiz-questions">
             <h3>Question 1</h3>
             <p>What does HTML stand for?</p>
-            <input type="radio" id="q1a" name="q1" value="Hyper Text Markup Language">
-            <label for="q1a">Hyper Text Markup Language</label><br>
-            <input type="radio" id="q1b" name="q1" value="Home Tool Markup Language">
-            <label for="q1b">Home Tool Markup Language</label><br>
+            <div class="quiz-options">
+                <label for="q1a"><input type="radio" id="q1a" name="q1" value="Hyper Text Markup Language">Hyper Text Markup Language</label><br>
+                <label for="q1b"><input type="radio" id="q1b" name="q1" value="Home Tool Markup Language">Home Tool Markup Language</label><br>    
+            </div>
             <button>Submit Answer</button>
         </div>
         
-        
-        <h3>Question 2</h3>
-        <p>Which of the following are HTML elements? (Select all that apply)</p>
-        <input type="checkbox" id="q2a" name="q2" value="<div>">
-        <label for="q2a">&lt;div&gt;</label><br>
-        <input type="checkbox" id="q2b" name="q2" value="<span>">
-        <label for="q2b">&lt;span&gt;</label><br>
-        <button>Submit Answer</button>
-        
+        <div class="quiz-questions">
+            <h3>Question 2</h3>
+            <p>Which of the following are HTML elements? (Select all that apply)</p>
+            <div class="quiz-options">
+                <label for="q2a"><input type="checkbox" id="q2a" name="q2" value="<div>">&lt;div&gt;</label><br>
+                <label for="q2b"><input type="checkbox" id="q2b" name="q2" value="<span>">&lt;span&gt;</label><br>
+            </div>
+            <button>Submit Answer</button>
+        </div>
+
         <br><br>
-        <form>
-            <button type="submit" formaction="leaderboard.html">Finish</button>
+        <form >
+            <button class="finish-btn" type="submit" formaction="leaderboard.html">Finish</button>
             <br><br>
         </form>
     </main>
