@@ -298,6 +298,22 @@ select {
     height: auto;
 }
 
+#accept{
+    background-color: #4CAF50;
+}
+
+#accept:hover{
+    background-color: #265e28;
+}
+
+#decline{
+    background-color: #D32F2F;
+}
+
+#decline:hover{
+    background-color: #821b1b;
+}
+
 .Pending td div {
     background-color: #e6f2ff; 
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1); 
