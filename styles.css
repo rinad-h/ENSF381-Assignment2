@@ -44,5 +44,11 @@ nav a:hover {text-decoration: underline; }
    /* margin: 20px;  Margin for spacing outside*/
 }
 
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .about-lms h2{ color: #003366;}
 
