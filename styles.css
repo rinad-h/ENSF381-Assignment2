@@ -62,4 +62,29 @@ footer{
     font-family: Arial;
 }
 
+.leaderboard-table{
+    border: 1px solid;
+    border-color: white;
+    border-collapse: collapse; 
+    width: 100%; 
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.leaderboard-table tr, .leaderboard-table td, .leaderboard-table img{
+    border: 1px solid;
+    border-color: white;
+    border-collapse: collapse; 
+}
+
+.leaderboard-header {
+    background-color: #4CAF50; 
+    color: white;
+    font-size: 36px;
+}
+
+.leaderboard-table img{
+    border-radius: 50px;
+    border-color: black;
+}
