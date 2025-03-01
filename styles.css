@@ -52,6 +52,11 @@ ul.no-bullets {
 
 .about-lms h2{ color: #003366;}
 
-.footer{
-    
+footer{
+    background-color: #004080;  
+    padding: 10px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: Arial;
 }
