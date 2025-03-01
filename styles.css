@@ -17,6 +17,7 @@ header h1 {
     color: white; 
     font-size: 20px;
     margin: 0;  
+}
 
 nav {
     display: flex;  
@@ -128,7 +129,7 @@ footer{
     width: 100%;
     max-width: 400px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 
 .form-group {
@@ -180,3 +181,86 @@ footer{
     color: #004080;
     font-family: Arial;
 }
+
+select {
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+.term-container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;        
+    justify-content: center; 
+    align-items: center;  
+    gap: 10px;           
+    margin-top: 20px;     
+}
+
+.Enrolled h2{
+    color: #004080;
+    font-family: Arial;
+    text-align: center;
+}
+
+.Enrolled td div {
+    background-color: #e6f2ff; 
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin: 1px;
+    border-radius: 10px;
+    text-align: center;
+    
+    width: 350px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;  
+    font-family: Arial;   
+}
+
+
+.Enrolled td div img {
+    border-radius: 8px;
+    max-width: 100%;  
+    height: auto;
+}
+
+.Pending td div {
+    background-color: #e6f2ff; 
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 40px;  
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    
+   
+    width: 500px;  
+    display:flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;  
+    font-family: Arial;  
+}
+
+.Pending td div img {
+    border-radius: 8px;
+    max-width: 100%;  
+    height: auto;
+}
+
+
+.Pending td div button {
+    padding: 15px 15px; 
+    font-size: 18px;    
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.Pending h2 {
+    color: #004080;
+    font-family: Arial;
+    text-align: center;
+}
+
