@@ -317,14 +317,14 @@ select {
 .Pending td div {
     background-color: #e6f2ff; 
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1); 
-    padding: 40px;  
+    padding: 10px;  
     margin: 5px;
     border-radius: 10px;
     text-align: center;
     
    
     width: 500px;  
-    display:flex;
+    display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items: center;  
@@ -339,7 +339,7 @@ select {
 
 
 .Pending td div button {
-    padding: 15px 15px; 
+    padding: 10px 10px; 
     font-size: 18px;    
     margin: 10px;
     border-radius: 5px;
